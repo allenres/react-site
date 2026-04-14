@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 20px;
+    color: #50C878;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-left: 1rem;
+}
