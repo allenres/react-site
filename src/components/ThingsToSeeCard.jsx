@@ -1,10 +1,9 @@
-
-
-function ThingsToSeeCard() {
+function ThingsToSeeCard({title, content}) {
     return (
-        <div>
-            <p>ThingsToSeeCard</p>
-        </div>
+        <>
+            <h1>{title}</h1>
+            <p>{content}</p>
+        </>
     );
 }
 

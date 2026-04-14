@@ -12,13 +12,13 @@ function App() {
       <Header title="Seattle" />
       <Hero />
       <Section title="History">
-        <HistoryCard />
-        <HistoryCard />
+        <HistoryCard title="History #1" content="Filler Content #1"/>
+        <HistoryCard title="History #2" content="Filler Content #2"/>
       </Section>
       <Section title="Things to See">
-        <ThingsToSeeCard />
-        <ThingsToSeeCard />
-        <ThingsToSeeCard />
+        <ThingsToSeeCard title="Thing to see #1" content="Filler Content #1"/>
+        <ThingsToSeeCard title="Thing to see #2" content="Filler Content #2"/>
+        <ThingsToSeeCard title="Thing to see #3" content="Filler Content #3"/>
       </Section>
       <Footer />
     </>
