@@ -16,9 +16,9 @@ function App() {
         <HistoryCard title="Goldrush" content="During the Klondike Gold Rush, Seattle became the main supply hub for thousands of prospectors heading to Alaska and Canada. The city marketed itself as the “Gateway to the Gold Fields,” and this boom helped transform Seattle into a major economic center almost overnight."/>
       </Section>
       <Section title="Things to See">
-        <ThingsToSeeCard title="Museum of Pop Culture" content="A view of the Museum of Pop Culture" image=".\src\assets\Museum_of_Pop_Culture.jpg" alt="A view of the Museum of Pop Culture"/>
-        <ThingsToSeeCard title="Pacific Science Center" content="A view of the Pacific Science Center" image=".\src\assets\Pacific_Science_Center.jpg" alt="A view of the Pacific Science Center"/>
-        <ThingsToSeeCard title="Space Needle" content="A view of Space Needle" image=".\src\assets\Space_Needle.jpg" alt="A view of Space Needle"/>
+        <ThingsToSeeCard title="Museum of Pop Culture" content="A view of the Museum of Pop Culture" image="./Museum_of_Pop_Culture.jpg" alt="A view of the Museum of Pop Culture"/>
+        <ThingsToSeeCard title="Pacific Science Center" content="A view of the Pacific Science Center" image="./Pacific_Science_Center.jpg" alt="A view of the Pacific Science Center"/>
+        <ThingsToSeeCard title="Space Needle" content="A view of Space Needle" image="./Space_Needle.jpg" alt="A view of Space Needle"/>
       </Section>
       <Footer />
     </>
