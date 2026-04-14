@@ -1,9 +1,12 @@
-function Section({title}) {
+function Section({title, children}) {
     return (
-        <section>
+        <section className="section">
             <h2>{title}</h2>
+            <div ClassName="section-content">
+                {children}
+            </div>
         </section>
-    )
+    );
 }
 
 export default Section;

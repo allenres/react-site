@@ -16,9 +16,9 @@ function App() {
         <HistoryCard title="History #2" content="Filler Content #2"/>
       </Section>
       <Section title="Things to See">
-        <ThingsToSeeCard title="Thing to see #1" content="Filler Content #1"/>
-        <ThingsToSeeCard title="Thing to see #2" content="Filler Content #2"/>
-        <ThingsToSeeCard title="Thing to see #3" content="Filler Content #3"/>
+        <ThingsToSeeCard title="Museum of Pop Culture" content="Filler Content #1" image=".\src\assets\Museum_of_Pop_Culture.jpg" alt="A view of the Museum of Pop Culture"/>
+        <ThingsToSeeCard title="Pacific Science Center" content="Filler Content #2" image=".\src\assets\Pacific_Science_Center.jpg" alt="A view of the Pacific Science Center"/>
+        <ThingsToSeeCard title="Space Needle" content="Filler Content #3" image=".\src\assets\Space_Needle.jpg" alt="A view of Space Needle"/>
       </Section>
       <Footer />
     </>
