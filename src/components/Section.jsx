@@ -1,3 +1,4 @@
+import './Section.css';
 function Section({title, children}) {
     return (
         <section className="section">
@@ -9,4 +10,13 @@ function Section({title, children}) {
     );
 }
 
-export default Section;
+export default function Section({ title, children }) {
+  return (
+    <section className="section">
+      <h2>{title}</h2>
+      <div className="section-content">
+        {children}
+      </div>
+    </section>
+  );
+}

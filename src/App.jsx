@@ -11,9 +11,9 @@ function App() {
     <>
       <Header title="Seattle" />
       <Hero />
-      <Section title="History">
-        <HistoryCard title="History #1" content="Filler Content #1"/>
-        <HistoryCard title="History #2" content="Filler Content #2"/>
+      <Section title="History Facts">
+        <HistoryCard title="Name Origin" content="Seattle got its name from Chief Seattle, a Native American leader who played a key role in the region during the mid-1800s. One interesting historical moment is the Great Seattle Fire, which destroyed much of the city’s downtown. Instead of rebuilding the same way, Seattle raised its street levels and rebuilt with brick and stone—shaping the modern city you see today."/>
+        <HistoryCard title="Goldrush" content="During the Klondike Gold Rush, Seattle became the main supply hub for thousands of prospectors heading to Alaska and Canada. The city marketed itself as the “Gateway to the Gold Fields,” and this boom helped transform Seattle into a major economic center almost overnight."/>
       </Section>
       <Section title="Things to See">
         <ThingsToSeeCard title="Museum of Pop Culture" content="Filler Content #1" image=".\src\assets\Museum_of_Pop_Culture.jpg" alt="A view of the Museum of Pop Culture"/>
