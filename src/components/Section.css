@@ -6,4 +6,5 @@
 
 .section-content {
     display: flex;
+    gap: 3rem;
 }

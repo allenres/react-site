@@ -1,6 +1,6 @@
 import './HistoryCard.css'
 
-function HistoryCard({title, content}) {
+export default function HistoryCard({title, content}) {
     return (
         <div className="card">
             <h2>{title}</h2>
@@ -8,5 +8,3 @@ function HistoryCard({title, content}) {
         </div>
     )
 }
-
-export default HistoryCard;
