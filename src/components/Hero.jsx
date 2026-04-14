@@ -1,4 +1,4 @@
-function HeroCard() {
+function Hero() {
     return (
         <div class="Hero">
             <h2>Hero text</h2>
@@ -7,4 +7,4 @@ function HeroCard() {
     );
 }
 
-export default HeroCard;
+export default Hero;
