@@ -1,11 +1,11 @@
-
+import './HistoryCard.css'
 
 function HistoryCard({title, content}) {
     return (
-        <>
-        <h2>{title}</h2>
-        <p>{content}</p>
-        </>
+        <div className="card">
+            <h2>{title}</h2>
+            <p>{content}</p>
+        </div>
     )
 }
 

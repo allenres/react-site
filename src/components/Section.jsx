@@ -1,9 +1,12 @@
-function Section({title}) {
-    return (
-        <section>
-            <h2>{title}</h2>
-        </section>
-    )
-}
+import './Section.css';
 
-export default Section;
+export default function Section({ title, children }) {
+  return (
+    <section className="section">
+      <h2>{title}</h2>
+      <div className="section-content">
+        {children}
+      </div>
+    </section>
+  );
+}
