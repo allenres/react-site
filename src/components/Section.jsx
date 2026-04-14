@@ -1,7 +1,7 @@
 import './Section.css';
 function Section({title, children}) {
     return (
-        <section className="section">
+        <section className="section" id={title}>
             <h2>{title}</h2>
             <div ClassName="section-content">
                 {children}
@@ -9,14 +9,4 @@ function Section({title, children}) {
         </section>
     );
 }
-
-export default function Section({ title, children }) {
-  return (
-    <section className="section">
-      <h2>{title}</h2>
-      <div className="section-content">
-        {children}
-      </div>
-    </section>
-  );
-}
+export default Section;
