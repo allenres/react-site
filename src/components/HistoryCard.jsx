@@ -1,8 +1,11 @@
 
 
-function HistoryCard() {
+function HistoryCard({title, content}) {
     return (
-        <div><p>historyCard</p></div>
+        <>
+        <h2>{title}</h2>
+        <p>{content}</p>
+        </>
     )
 }
 
